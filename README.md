@@ -1,44 +1,29 @@
-# TabAlpha
+# TabAlpha Website
 
-TabAlpha is a social investing layer for Robinhood Chain. It turns high-signal market ideas into transparent, followable, one-click onchain strategies called **Tabs**.
+Vue 3 + Vite marketing site for TabAlpha.
 
-## Confirmed brand
-
-- Product: **TabAlpha**
-- Domain: **tabalpha.com**
-- X handle: **@tabalpha**
-- Tagline: **Open a thesis. Follow the alpha.**
-
-Availability was checked on September 10, 2026. See `BRAND_AVAILABILITY.md` for the verification record and important reservation caveat.
-
-## Deliverables
-
-- `BUSINESS_PLAN.md` — complete English business plan
-- `website/` — Vue 3 + Vite marketing site with EVM wallet connection
-- `website/public/brand/` — web-ready logo assets
-- `twitter/` — X profile assets, campaign images, launch video, bio, and post copy
-
-## Website
+## Commands
 
 ```bash
-cd website
 npm install
 npm run dev
-```
-
-Production build:
-
-```bash
 npm run build
+npm run preview
 ```
 
-## Positioning
+## Wallet integration
 
-TabAlpha is not another charting terminal. It is a creator-to-execution network:
+The site uses the browser's EIP-1193 provider (`window.ethereum`) and requests Robinhood Chain mainnet when a wallet connects.
 
-1. Creators publish a thesis and a rules-based Tab.
-2. Users inspect the thesis, holdings, changes, and verifiable history.
-3. A connected wallet can follow the Tab and execute eligible assets on Robinhood Chain.
-4. Creators earn from transparent subscription and performance-aligned fees.
-5. Every follow, rebalance, and outcome strengthens discovery and reputation.
+- Chain ID: `4663` (`0x1237`)
+- RPC: `https://rpc.robinhoodchain.com`
+- Explorer: `https://explorer.robinhoodchain.com`
+- Native gas token: ETH
 
+This marketing prototype does not submit trades, token approvals, or value-bearing transactions.
+
+## Main files
+
+- `src/App.vue` — content, interactions, FAQ, wallet state
+- `src/style.css` — responsive design system and motion
+- `public/brand/` — production logo and social preview assets
