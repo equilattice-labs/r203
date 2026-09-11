@@ -1,0 +1,12 @@
+{
+  "name": "tabalpha-assets",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/generate-assets.mjs",
+    "video": "node scripts/generate-video.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}

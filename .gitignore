@@ -1,0 +1,8 @@
+node_modules/
+website/node_modules/
+website/dist/
+.playwright-cli/
+.frames-tabalpha/
+output/playwright/
+*.log
+
