@@ -317,7 +317,7 @@ onBeforeUnmount(() => {
     <footer>
       <div class="footer-brand"><img src="/brand/tabalpha-logo.png" alt="TabAlpha" /><p>The social investing layer for Robinhood Chain.</p></div>
       <div><span>EXPLORE</span><a href="#product">Product</a><a href="#creators">Creators</a><a href="#roadmap">Roadmap</a></div>
-      <div><span>CONNECT</span><a href="https://x.com/tabalpha" target="_blank" rel="noreferrer">X / Twitter</a><a href="mailto:founders@tabalpha.com">Founding creators</a><a href="mailto:hello@tabalpha.com">Contact</a></div>
+      <div><span>CONNECT</span><a href="https://x.com/tabalpha_fun" target="_blank" rel="noreferrer">X / Twitter</a><a href="mailto:founders@tabalpha.com">Founding creators</a><a href="mailto:hello@tabalpha.com">Contact</a></div>
       <div class="footer-meta"><span>© 2026 TABALPHA</span><p>Prototype only. Nothing on this site is investment advice or an offer to buy or sell any asset.</p></div>
     </footer>
   </div>
